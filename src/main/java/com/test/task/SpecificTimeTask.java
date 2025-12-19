@@ -1,15 +1,13 @@
 package com.test.task;
 
 import com.test.utils.JsonUtil;
+import jakarta.annotation.Resource;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
-
-import javax.annotation.Resource;
-import java.util.Hashtable;
 import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.Executors;
